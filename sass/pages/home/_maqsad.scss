@@ -1,0 +1,167 @@
+.home-maqsad {}
+
+.home-maqsad-wrapper {
+    padding: 18px 0 60px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.home-maqsad-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-maqsad-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.home-maqsad-right {}
+
+.home-maqsad-right-title {
+    margin-bottom: 25px;
+
+    h2 {
+        color: rgb(46, 48, 56);
+        font-family: Poppins600;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.home-maqsad-right-content {}
+
+.home-maqsad-right-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px 105px;
+    border-radius: 8px;
+    background: rgb(245, 245, 245);
+    margin-bottom: 20px;
+}
+
+.home-maqsad-right-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-maqsad-right-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.home-maqsad-right-info-text {
+    p {
+        color: rgb(46, 48, 56);
+        font-family: Michroma;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-maqsad-right-info-link {
+    padding: 4px 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+@media (min-width:800px) {
+    .home-maqsad-right-left {
+        margin-bottom: 0px;
+    }
+
+    .home-maqsad-right-content {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .home-maqsad-right-left {
+        padding: 105px 55px;
+    }
+
+    .home-maqsad-right-info-link {
+        padding: 8px 32px;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width:1100px) {
+
+    .home-maqsad-wrapper {
+        padding: 18px 0 240px 0;
+    }
+
+    .home-maqsad-wrapper {
+        display: flex;
+        align-items: start;
+        gap: 60px;
+        justify-content: space-between;
+    }
+
+    .home-maqsad-right-title {
+        width: 60%;
+
+        h2 {
+            font-family: Poppins600;
+            font-size: 36px;
+            line-height: 45px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+    }
+
+    .home-maqsad-right-title {
+        margin-bottom: 80px;
+    }
+}
+
+
+
+
+
+@media (min-width:1300px) {
+    .home-maqsad-wrapper {
+        gap: 168px;
+    }
+
+    .home-maqsad-right-title {
+        width: 40%;
+    }
+}

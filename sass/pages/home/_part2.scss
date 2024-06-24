@@ -1,0 +1,163 @@
+.home-part2 {}
+
+.home-part2-wrapper {
+    padding: 18px 0 50px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.home-part2-top {
+    margin-bottom: 40px;
+}
+
+.home-part2-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-part2-top-left{}
+
+.home-part2-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.home-part2-middle {
+    margin-bottom: 20px;
+
+    h2 {
+        color: rgb(46, 48, 56);
+        font-family: Poppins600;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.home-part2-right {
+    p {
+        color: rgb(130, 131, 136);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.home-part2-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-part2-card {}
+
+.home-part2-card-image {
+    img {
+        width: 100%;
+    }
+}
+
+.home-part2-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 25px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.home-part2-card-desc {
+    p {
+        color: rgba(46, 48, 56, 0.6);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+@media (min-width:750px) {
+
+    .home-part2-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .home-part2-card {
+        width: 48%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+@media (min-width:1150px) {
+    .home-part2-wrapper {
+        padding: 18px 0 180px 0;
+    }
+
+    .home-part2-middle {
+
+        h2 {
+            margin-bottom: 0;
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+
+    .home-part2-card {
+        width: 32%;
+    }
+
+
+.home-part2-top-left{
+    display: flex;
+    align-items: start;
+    gap: 130px;
+}
+
+    .home-part2-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .home-part2-right {
+        width: 30%;
+        p {
+            color: rgb(130, 131, 136);
+            font-family: Poppins400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+        }
+    }
+
+
+.home-part2-middle {
+    width: 30%;
+}
+
+}

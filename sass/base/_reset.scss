@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: Michroma;
+    src: url(../../fonts/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins400;
+    src: url(../../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins600;
+    src: url(../../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins700;
+    src: url(../../fonts/Poppins-Bold.ttf);
+}
+
+
+
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (min-width:950px) {
+    .container {
+        padding: 0 60px;
+    }
+}

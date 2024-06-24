@@ -1,0 +1,150 @@
+.home-talim {}
+
+.home-talim-wrapper {
+    padding: 18px 0 50px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.home-talim-top {}
+
+.home-talim-top-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-talim-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.home-talim-top-title {
+    margin-bottom: 20px;
+
+    h2 {
+        color: rgb(46, 48, 56);
+        font-family: Poppins600;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.home-talim-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-talim-card {
+    padding: 48px 32px 24px 32px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 12px;
+}
+
+.home-talim-card-title {
+    color: rgb(46, 48, 56);
+    font-family: Michroma;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.home-talim-card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.home-talim-card-desc {
+    margin-bottom: 22px;
+
+    p {
+        color: rgba(46, 48, 56, 0.6);
+        font-family: Poppins400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.home-talim-card-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    p {
+        color: rgb(24, 74, 251);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+@media (min-width:750px) {
+
+    .home-talim-wrapper {
+        padding: 18px 0 120px 0;
+    }
+
+    .home-talim-top {
+        display: flex;
+        align-items: start;
+        gap: 66px;
+    }
+
+    .home-talim-top-title {
+        margin-bottom: 120px;
+
+        h2 {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+
+    .home-talim-cards {
+        display: flex;
+        gap: 0px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .home-talim-card {
+        width: 32%;
+    }
+}
+
+
+@media (min-width:1300px) {
+    .home-talim-top {
+        gap: 236px;
+    }
+
+    .home-talim-top-title {
+        width: 40%;
+
+        h2 {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+}

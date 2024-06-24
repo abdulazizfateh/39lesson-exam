@@ -1,0 +1,179 @@
+.home-xalqaro {}
+
+.home-xalqaro-wrapper {
+    padding: 18px 0 50px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.home-xalqaro-top {}
+
+.home-xalqaro-top-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-xalqaro-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.home-xalqaro-top-title {
+    margin-bottom: 20px;
+
+    h2 {
+        color: rgb(46, 48, 56);
+        font-family: Poppins600;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.home-xalqaro-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.home-xalqaro-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../images/xalqaro.png);
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+
+    p {
+        text-align: center;
+        color: rgb(24, 74, 251);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.home-xalqaro-azo {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.home-xalqaro-azo-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 87px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.home-xalqaro-azo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    padding: 6px 42px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+
+    p {
+        color: rgb(24, 74, 251);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+
+@media (min-width:1000px) {
+
+    .home-xalqaro-wrapper {
+        padding: 18px 0 120px 0;
+    }
+
+    .home-xalqaro-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .home-xalqaro-desc {
+        width: 70%;
+    }
+
+    .home-xalqaro-cards {
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .home-xalqaro-top {
+        display: flex;
+        align-items: start;
+        gap: 100px;
+    }
+
+    .home-xalqaro-top-title {
+
+        h2 {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+
+}
+
+
+@media (min-width:1250px) {
+    .home-xalqaro-desc {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        padding: 40px 85px 0 0;
+
+        p {
+            width: 246px;
+            text-align: start;
+        }
+    }
+
+    .home-xalqaro-top {
+        gap: 150px;
+    }
+
+    .home-xalqaro-top-title {
+        width: 50%;
+        margin-bottom: 119px;
+    }
+}

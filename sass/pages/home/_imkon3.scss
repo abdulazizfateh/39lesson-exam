@@ -1,0 +1,150 @@
+.home-imko3 {}
+
+.home-imkon3-wrapper {
+    padding: 18px 0 50px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.home-imkon3-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-imkon3-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.home-imkon3-right {}
+
+.home-imkon3-right-title {
+    margin-bottom: 20px;
+
+    h2 {
+        color: rgb(46, 48, 56);
+        font-family: Poppins600;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.home-imkon3-right-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-imkon3-right-card {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    padding: 26px;
+}
+
+.home-imkon3-right-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.home-imkon3-right-card-text {
+    margin-bottom: 12px;
+
+    p {
+        color: rgb(46, 48, 56);
+        font-family: Michroma;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-imkon3-right-card-desc {
+    margin-bottom: 48px;
+
+    p {
+        color: rgb(130, 131, 136);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.home-imkon3-right-card-link {
+
+    width: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+
+    a {
+        color: rgb(24, 74, 251);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: left;
+        text-transform: capitalize;
+
+    }
+}
+
+
+
+@media (min-width:1000px) {
+    .home-imkon3-wrapper {
+        display: flex;
+        align-items: start;
+        gap: 100px;
+        padding: 18px 0 100px 0;
+    }
+
+    .home-imkon3-right-title {
+        margin-bottom: 82px;
+
+        h2 {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+
+    .home-imkon3-right-card {
+        display: flex;
+        align-items: center;
+        gap: 116px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 8px;
+        padding: 40px 111px 40px 65px;
+    }
+}
+
+@media (min-width:1300px) {
+    .home-imkon3-wrapper {
+        gap: 150px;
+    }
+
+    .home-imkon3-right-title {
+        width: 45%;
+    }
+}

@@ -1,0 +1,140 @@
+.home-part1 {}
+
+.home-part1-wrapper {
+    padding: 18px 0 50px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+
+.home-part1-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+
+    p {
+        color: rgb(86, 88, 94);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.home-part1-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.home-part1-right{
+
+}
+
+.home-part1-right-top {
+    margin-bottom: 40px;
+}
+
+.home-part1-right-title {
+    margin-bottom: 20px;
+
+    h2 {
+        color: rgb(46, 48, 56);
+        font-family: Poppins600;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.home-part1-right-text {
+    p {
+        color: rgb(130, 131, 136);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.home-part1-right-sponsors {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-part1-right-sponsor {
+    padding: 20px 30px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+
+@media (min-width:1000px) {
+    .home-part1-wrapper {
+        display: flex;
+        align-items: start;
+        gap: 100px;
+        padding: 18px 0 120px 0;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+
+    .home-part1-right-title {
+        h2 {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+
+    .home-part1-right-top {
+        display: flex;
+        align-items: start;
+        gap: 100px;
+        margin-bottom: 119px;
+    }
+
+    .home-part1-right-sponsors {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home-part1-right-sponsor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 60px;
+        border: 1px solid rgb(204, 204, 204);
+    }
+
+
+}
+
+
+
+@media (min-width:1300px) {
+
+    .home-part1-right-top {
+        gap: 300px;
+    }
+
+    .home-part1-right-sponsor {
+        padding: 40px 100px;
+    }
+
+    .home-part1-right-text {
+        width: 408px;
+    }
+}
+
+@media (min-width:1500px) {
+    .home-part1-right-top {
+        gap: 500px;
+    }
+
+    .home-part1-right-sponsor {
+        padding: 40px 130px;
+    }
+}
