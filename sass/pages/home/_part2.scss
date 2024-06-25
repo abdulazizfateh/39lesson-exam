@@ -25,7 +25,7 @@
     }
 }
 
-.home-part2-top-left{}
+.home-part2-top-left {}
 
 .home-part2-circle {
     width: 20px;
@@ -103,7 +103,7 @@
         width: 48%;
     }
 
-    
+
 }
 
 
@@ -131,11 +131,11 @@
     }
 
 
-.home-part2-top-left{
-    display: flex;
-    align-items: start;
-    gap: 130px;
-}
+    .home-part2-top-left {
+        display: flex;
+        align-items: start;
+        gap: 130px;
+    }
 
     .home-part2-top {
         display: flex;
@@ -146,6 +146,7 @@
 
     .home-part2-right {
         width: 30%;
+
         p {
             color: rgb(130, 131, 136);
             font-family: Poppins400;
@@ -156,8 +157,8 @@
     }
 
 
-.home-part2-middle {
-    width: 30%;
-}
+    .home-part2-middle {
+        width: 30%;
+    }
 
 }
