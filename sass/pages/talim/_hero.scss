@@ -1,0 +1,129 @@
+.talim-hero {
+    padding: 40px 0 80px 0;
+}
+
+.talim-hero-wrapper {
+    border-radius: 12px;
+    background: rgb(245, 245, 245);
+}
+
+.talim-hero-left {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 45px;
+    margin-bottom: 30px;
+}
+
+.talim-hero-left-top {}
+
+.talim-hero-left-title {
+    width: 90%;
+    color: rgb(51, 51, 51);
+    font-family: Poppins700;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.home-hero-left-text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    p {
+        color: rgb(51, 51, 51);
+        font-family: Michroma;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+    }
+}
+
+.talim-hero-left-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #184AFB;
+}
+
+.talim-hero-left-bottom {
+    button {
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        width: 30%;
+        border-radius: 20px;
+        background: rgb(24, 74, 251);
+        color: rgb(255, 255, 255);
+        border: none;
+        padding: 8px 0;
+        font-family: Poppins600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+}
+
+.talim-hero-right {
+
+    img {
+        width: 70%;
+    }
+}
+
+
+@media (min-width:700px) {
+    .talim-hero-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 12px;
+        background: rgb(245, 245, 245);
+    }
+
+    .talim-hero-left {
+        width: 50%;
+        padding: 60px;
+    }
+
+    .talim-hero-right {
+        width: 50%;
+        padding-top: 60px;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .talim-hero-left-title {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .talim-hero-left-top {
+    }
+
+    .talim-hero-left {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        gap: 250px;
+        margin-bottom: 30px;
+    }
+
+    .talim-hero-left-bottom {
+        button {
+            width: 30%;
+            padding: 8px 0;
+        }
+    }
+}
