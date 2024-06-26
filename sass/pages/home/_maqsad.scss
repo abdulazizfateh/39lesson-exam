@@ -21,6 +21,34 @@
     }
 }
 
+.home-hero-bottom {
+    width: 90%;
+    padding: 20px 0;
+
+    p {
+        color: rgb(130, 131, 136);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    button {
+        padding: 8px 32px;
+        color: rgb(24, 74, 251);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: left;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 20px;
+        background: rgb(255, 255, 255);
+        text-transform: capitalize;
+    }
+}
+
 .home-maqsad-circle {
     width: 20px;
     height: 20px;
@@ -43,7 +71,19 @@
     }
 }
 
-.home-maqsad-right-content {}
+.home-maqsad-right-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.home-maqsad-right-card {
+    width: 48%;
+}
 
 .home-maqsad-right-left {
     display: flex;
@@ -53,6 +93,7 @@
     border-radius: 8px;
     background: rgb(245, 245, 245);
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .home-maqsad-right-right {
@@ -65,9 +106,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid rgb(204, 204, 204);
     gap: 10px;
-    padding-bottom: 20px;
+    padding: 10px;
 }
 
 .home-maqsad-right-info-text {
@@ -115,6 +155,38 @@
         padding: 8px 32px;
     }
 
+
+.home-hero-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+
+    p {
+        width: 40%;
+        color: rgb(130, 131, 136);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    button {
+        padding: 8px 32px;
+        color: rgb(24, 74, 251);
+        font-family: Poppins400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        text-align: left;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 20px;
+        background: rgb(255, 255, 255);
+        text-transform: capitalize;
+    }
+}
 }
 
 
